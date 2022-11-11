@@ -253,7 +253,7 @@ export async function titleFrameSource({ width, height, params }) {
 
     const min = Math.min(width, height);
 
-    const fontSize = Math.round(min * 0.1);
+    const fontSize = 38;
 
     const scaleFactor = getZoomParams({ progress, zoomDirection, zoomAmount });
 
